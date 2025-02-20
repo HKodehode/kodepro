@@ -2,5 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: image('background.jpg');
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(14, 1, 1);
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(14, 1, 1);
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+ul{
+    text-align: center;
+    margin-top: 50px;
+}
+
+ul a:hover{
+    color:hsl(0, 16%, 31%);
 }
