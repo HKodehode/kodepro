@@ -8,13 +8,17 @@ body {
     background-image: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
+
+
 
 h1 {
     text-align: center;
     color: rgb(14, 1, 1);
     font-size: 50px;
     margin-top: 100px;
+    font-style: italic;
 }
 
 h2 {
@@ -24,11 +28,19 @@ h2 {
     margin-top: 50px;
 }
 
+
 ul{
+    list-style: none;
     text-align: center;
     margin-top: 50px;
+    line-height: 2;
+    background-color: hsla(196, 85%, 3%, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block
 }
 
 ul a:hover{
     color:hsl(0, 16%, 31%);
 }
+
